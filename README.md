@@ -13,10 +13,9 @@ b. If α ⊆ β, then P(α) ≤ P(β).
 
 ![b](https://latex.codecogs.com/svg.latex?\begin{align*}P(\beta)%20&=%20P(\beta%20\cap%20U)%20=%20P(\beta%20\cap%20(\alpha%20\cup%20\alpha^{\mathsf{c}}))%20=%20P((\beta%20\cap%20\alpha)%20\cup%20(\beta%20\cap%20\alpha^{\mathsf{c}}))%20\\\\&=%20P(\beta%20\cap%20\alpha)%20+%20P(\beta%20\cap%20\alpha^{\mathsf{c}})%20%20\quad\text{(definition%202.1)}%20%20\\\\&=%20P(\alpha)%20+%20P(\beta%20\cap%20\alpha^{\mathsf{c}})%20\\%20\\&\geq%20P(\alpha)%20\quad%20(\because%20P(\beta%20\cap%20\alpha^{\mathsf{c}})%20\geq%200%20\quad%20\text{by%20definition%202.1}%20)\end{align*})
 
-```
-P(Ω) = P(Ω ∪ ∅)
-     = P(Ω) + P(∅) (by definition 2.1)
-     = 1
-     
-∴ P(∅) = 0
-```
+c. P(α ∪ β) = P(α) + P(β) - P(α ∩ β)
+
+![c](https://latex.codecogs.com/svg.latex?\begin{align*}&%20P(\beta)%20=%20P((\beta%20\cap%20\alpha)%20\cup%20(\beta%20-%20\alpha))%20=%20P(\beta%20\cap%20\alpha)%20+%20P(\beta%20-%20\alpha)%20\quad%20\text{(definition%202.1)}%20\\\\&%20\Leftrightarrow%20P(\beta%20-%20\alpha)%20=%20P(\beta)%20-%20P(\beta%20\cap%20\alpha)%20\quad%20\quad%20\text{(1)}\end{align*})
+
+![c](https://latex.codecogs.com/svg.latex?\begin{align*}P(\alpha%20\cup%20\beta)%20=%20P(\alpha%20\cup%20(\beta%20-%20\alpha))%20&=%20P(\alpha)%20+%20P(\beta%20-%20\alpha)%20%20\quad\text{(definition%202.1)}%20%20\\\\&=%20P(\alpha)%20+%20P(\beta)%20-%20P(\alpha%20\cap%20\beta)%20\quad%20\text{by%20(1)}\\%20\end{align*})
+
