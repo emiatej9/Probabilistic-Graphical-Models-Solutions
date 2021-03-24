@@ -7,7 +7,7 @@ Prove the following properties using basic properties of definition 2.1:
 
 a. P(∅) = 0
 
-![a](https://latex.codecogs.com/svg.latex?\begin{align*}&%20P(\Omega)%20=%20P(\Omega%20\cup%20\varnothing)%20=%20P(\Omega)%20+%20P(\varnothing)%20=%201%20\quad\text{(definition%202.1)}%20\\&%20\therefore%20P(\varnothing)%20=%200\end{align*})
+![a](https://latex.codecogs.com/svg.latex?\begin{align*}P(\Omega)%20=%20P(\Omega%20\cup%20\varnothing)%20&=%20P(\Omega)%20+%20P(\varnothing)%20=%201%20\quad\text{(definition%202.1)}%20\\\\\Leftrightarrow%20P(\varnothing)%20=%201%20-%20P(\Omega)%20\\\\\therefore%20P(\varnothing)%20=%200\end{align*})
 
 ```
 P(Ω) = P(Ω ∪ ∅)
